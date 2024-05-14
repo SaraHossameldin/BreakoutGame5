@@ -11,20 +11,23 @@ CONFIG += c++17
 SOURCES += \
     ball.cpp \
     block.cpp \
+    button.cpp \
+    health.cpp \
     level1.cpp \
     main.cpp \
-    mainwindow.cpp \
-    paddle.cpp
+    paddle.cpp \
+    score.cpp
 
 HEADERS += \
     ball.h \
     block.h \
+    button.h \
+    health.h \
     level1.h \
-    mainwindow.h \
-    paddle.h
+    paddle.h \
+    score.h
 
-FORMS += \
-    mainwindow.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
