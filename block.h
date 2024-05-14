@@ -1,10 +1,14 @@
 #ifndef BLOCK_H
 #define BLOCK_H
+#include <QGraphicsItem>
+#include <QGraphicsRectItem>
 
-class Block
+class Block: public QGraphicsRectItem
 {
 public:
-    Block();
+    // Constructor
+    Block(QGraphicsItem* parent=NULL);
+
 };
 
 #endif // BLOCK_H
